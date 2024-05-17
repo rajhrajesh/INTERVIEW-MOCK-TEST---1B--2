@@ -1,0 +1,42 @@
+.countries-list {
+  padding: 0px;
+  list-style-type: none;
+  max-height: 40vh;
+  overflow-y: scroll;
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+}
+
+.country-name {
+  color: #f8fafc;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 75px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 11px;
+  padding-left: 11px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.country-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #94a3b8;
+}
+
+.para {
+  color: #f1f9f8;
+  margin-right: 40px;
+}
